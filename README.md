@@ -18,7 +18,8 @@ cd /opt/hanyu-app
 ```
 3. git clone项目到本地
 ```
-mkdir -p /opt/hanyu-app
+git clone https://github.com/daxia25881/hanyu-explain.git
+cd hanyu-explain
 ```
 4. 配置.env文件，填入实际的API密钥、URL和model
 ```
