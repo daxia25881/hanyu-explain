@@ -4,8 +4,11 @@
 
 ## 1、网页内截图
 主页面
-
+![image](https://github.com/user-attachments/assets/e2b75ba8-4328-41ea-b721-5e53394831ee)
+思考时
+![image](https://github.com/user-attachments/assets/67179e9a-161b-489d-976b-da2406500b7e)
 生成卡片
+![image](https://github.com/user-attachments/assets/20d1797d-00eb-4294-863d-009412ab56d3)
 
 ## 2、docker-compose部署
 1. 创建项目目录
