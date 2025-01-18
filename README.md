@@ -3,6 +3,7 @@
 能够犀利、一针见血的解释抽象的网络热词，并生成简洁优雅的解释卡片。
 
 ## 1、网页内截图
+
 主页面
 ![image](https://github.com/user-attachments/assets/e2b75ba8-4328-41ea-b721-5e53394831ee)
 思考时
@@ -11,6 +12,7 @@
 ![image](https://github.com/user-attachments/assets/20d1797d-00eb-4294-863d-009412ab56d3)
 
 ## 2、docker-compose部署
+
 1. 创建项目目录
 ```
 mkdir -p /opt/hanyu-app
@@ -35,3 +37,7 @@ chmod 777 logs
 ```
 docker-compose up -d --build
 ```
+
+## 3、访问
+
+可以通过http://你的服务器地址:8082/ai_explain进行访问
