@@ -5,9 +5,14 @@ services:
     ports:
       - "8082:8082"
     volumes:
-      - .:/app
+      - ./logs:/app/logs
     env_file:
       - .env
     environment:
       - FLASK_ENV=production
-    restart: always 
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3" 
